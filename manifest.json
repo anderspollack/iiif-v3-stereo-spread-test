@@ -33,5 +33,37 @@
         }
       ]
     }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/1",
+      "label": {
+        "it": [
+          "Right Channel Separation Test 1"
+        ]
+      },
+      "items": [
+        {
+          "type": "Canvas",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=2"
+        }
+      ]
+    },
+    {
+      "type": "Range",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/2",
+      "label": {
+        "it": [
+          "Right Channel Separation Test 2"
+        ]
+      },
+      "items": [
+        {
+          "type": "Canvas",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=18"
+        }
+      ]
+    }
   ]
 }
