@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.io/api/cookbook/recipe/0002-mvm-audio/manifest.json",
+  "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -9,25 +9,25 @@
   },
   "items": [
     {
-      "id": "https://iiif.io/api/cookbook/recipe/0002-mvm-audio/canvas",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas",
       "type": "Canvas",
       "duration": 155.424,
       "items": [
         {
-          "id": "https://iiif.io/api/cookbook/recipe/0002-mvm-audio/canvas/page",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.io/api/cookbook/recipe/0002-mvm-audio/canvas/page/annotation",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/page/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
+                "id": "https://ia802903.us.archive.org/16/items/lp_stereo-test-record-for-home-and-laboratory_unknown-artist/disc1/01.09.%20Stereo%20Spread.mp3",
                 "type": "Sound",
-                "format": "audio/mp4",
+                "format": "audio/mp3",
                 "duration": 155.424
               },
-              "target": "https://iiif.io/api/cookbook/recipe/0002-mvm-audio/canvas/page"
+              "target": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/page"
             }
           ]
         }
