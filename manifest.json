@@ -40,7 +40,7 @@
       "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/1",
       "label": {
         "en": [
-          "Right Channel Separation Test 1"
+          "Right Channel Separation Test"
         ]
       },
       "items": [
@@ -49,7 +49,22 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/2",
           "label": {
             "en": [
-              "Right Channel Separation Test 1"
+              "Right Channel Separation Test Introduction"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=2,6"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/3",
+          "label": {
+            "en": [
+              "Test 1"
             ]
           },
           "items": [
@@ -61,10 +76,10 @@
         },
         {
           "type": "Range",
-          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/3",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/4",
           "label": {
             "en": [
-              "Right Channel Separation Test 2"
+              "Test 2"
             ]
           },
           "items": [
@@ -73,7 +88,213 @@
               "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=18,28"
             }
           ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/5",
+          "label": {
+            "en": [
+              "Test 3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=28,38"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/6",
+          "label": {
+            "en": [
+              "Test 4"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=38,48"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/7",
+          "label": {
+            "en": [
+              "Test 5"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=50,60"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/8",
+          "label": {
+            "en": [
+              "Test 6"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=61,70"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/9",
+          "label": {
+            "en": [
+              "Test 7"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=71,81"
+            }
+          ]
         }
+      ]
+    },
+    {
+      "type": "Range",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/10",
+      "label": {
+        "en": [
+          "Left Channel Separation Test"
+        ]
+      },
+      "items": [
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/11",
+          "label": {
+            "en": [
+              "Left Channel Separation Test Introduction"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=84,89"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/12",
+          "label": {
+            "en": [
+              "Test 1"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=89,99"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/13",
+          "label": {
+            "en": [
+              "Test 2"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=100,108"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/14",
+          "label": {
+            "en": [
+              "Test 3"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=110,119"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/15",
+          "label": {
+            "en": [
+              "Test 4"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=121,130"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/16",
+          "label": {
+            "en": [
+              "Test 5"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=131,141"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/17",
+          "label": {
+            "en": [
+              "Test 6"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=142,152"
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/18",
+          "label": {
+            "en": [
+              "Test 7"
+            ]
+          },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=152"
+            }
+          ]
+        },
       ]
     }
   ]
