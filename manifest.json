@@ -34,6 +34,15 @@
       ]
     }
   ],
+  "thumbnail": [
+    {
+      "id": "stereo-test-record-for-home-and-laboratory.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 634,
+      "height": 640
+    }
+  ],
   "structures": [
     {
       "type": "Range",
