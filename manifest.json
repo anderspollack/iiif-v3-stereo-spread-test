@@ -36,7 +36,7 @@
   ],
   "thumbnail": [
     {
-      "id": "stereo-test-record-for-home-and-laboratory.jpg",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/stereo-test-record-for-home-and-laboratory.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "width": 634,
@@ -58,7 +58,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/2",
           "label": {
             "en": [
-              "Right Channel Separation Test Introduction"
+              "Right Channel"
             ]
           },
           "items": [
@@ -73,7 +73,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/3",
           "label": {
             "en": [
-              "Test 1"
+              "1"
             ]
           },
           "items": [
@@ -88,7 +88,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/4",
           "label": {
             "en": [
-              "Test 2"
+              "2"
             ]
           },
           "items": [
@@ -103,7 +103,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/5",
           "label": {
             "en": [
-              "Test 3"
+              "3"
             ]
           },
           "items": [
@@ -118,7 +118,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/6",
           "label": {
             "en": [
-              "Test 4"
+              "4"
             ]
           },
           "items": [
@@ -133,7 +133,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/7",
           "label": {
             "en": [
-              "Test 5"
+              "5"
             ]
           },
           "items": [
@@ -148,7 +148,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/8",
           "label": {
             "en": [
-              "Test 6"
+              "6"
             ]
           },
           "items": [
@@ -163,7 +163,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/9",
           "label": {
             "en": [
-              "Test 7"
+              "7"
             ]
           },
           "items": [
@@ -189,7 +189,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/11",
           "label": {
             "en": [
-              "Left Channel Separation Test Introduction"
+              "Left Channel"
             ]
           },
           "items": [
@@ -204,7 +204,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/12",
           "label": {
             "en": [
-              "Test 1"
+              "1"
             ]
           },
           "items": [
@@ -219,7 +219,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/13",
           "label": {
             "en": [
-              "Test 2"
+              "2"
             ]
           },
           "items": [
@@ -234,7 +234,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/14",
           "label": {
             "en": [
-              "Test 3"
+              "3"
             ]
           },
           "items": [
@@ -249,7 +249,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/15",
           "label": {
             "en": [
-              "Test 4"
+              "4"
             ]
           },
           "items": [
@@ -264,7 +264,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/16",
           "label": {
             "en": [
-              "Test 5"
+              "5"
             ]
           },
           "items": [
@@ -279,7 +279,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/17",
           "label": {
             "en": [
-              "Test 6"
+              "6"
             ]
           },
           "items": [
@@ -294,7 +294,7 @@
           "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/range/18",
           "label": {
             "en": [
-              "Test 7"
+              "7"
             ]
           },
           "items": [
