@@ -36,11 +36,11 @@
   ],
   "thumbnail": [
     {
-      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/thumbnail/full/full/0/default.jpg",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/thumbnail",
       "type": "Image",
       "format": "image/jpeg",
-      "width": 634,
-      "height": 640
+      "width": 200,
+      "height": 202
     }
   ],
   "structures": [
