@@ -36,7 +36,7 @@
   ],
   "thumbnail": [
     {
-      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/stereo-test-record-for-home-and-laboratory.jpg",
+      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/stereo-test-record-for-home-and-laboratory.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "width": 634,
