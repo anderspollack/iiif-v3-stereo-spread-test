@@ -64,7 +64,7 @@
           "items": [
             {
               "type": "Canvas",
-              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=2,8"
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=2,7"
             }
           ]
         },
@@ -79,7 +79,7 @@
           "items": [
             {
               "type": "Canvas",
-              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=8,17"
+              "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/canvas/1#t=7,17"
             }
           ]
         },
