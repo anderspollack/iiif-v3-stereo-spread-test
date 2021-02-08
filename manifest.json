@@ -31,16 +31,16 @@
             }
           ]
         }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 634,
+          "height": 640
+        }
       ]
-    }
-  ],
-  "thumbnail": [
-    {
-      "id": "https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/thumbnail",
-      "type": "Image",
-      "format": "image/jpeg",
-      "width": 200,
-      "height": 202
     }
   ],
   "structures": [
