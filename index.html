@@ -58,8 +58,58 @@
   </head>
   <body>
     <main class="iiif-stereo">
-      <!-- <a href="https://ia802903.us.archive.org/16/items/lp_stereo-test-record-for-home-and-laboratory_unknown-artist/disc1/01.09.%20Stereo%20Spread.mp3">Stereo Spread, raw file</a> -->
-      <audio controls src="https://ia802903.us.archive.org/16/items/lp_stereo-test-record-for-home-and-laboratory_unknown-artist/disc1/01.09.%20Stereo%20Spread.mp3"></audio>
+      <div class="iiif-stereo__left" name="Left Channel Separation Test"></div>
+      <div class="iiif-stereo__body">
+        <img src="thumbnail.jpg" alt="L.P. cover for Stereo Test Record for Home and Laboratory" />
+        <audio controls src="stereo-spread.mp3" id="audio"></audio>
+      </div>
+      <div class="iiif-stereo__right" name="Right Channel Separation Test"></div>
     </main>
+    <script type="text/javascript">
+    const manifest = fetch("https://raw.githubusercontent.com/anderspollack/iiif-v3-stereo-spread-test/main/manifest.json")
+      .then(response => {
+        return response.json();
+      })
+      .then(manifest => {
+        const $audio = document.getElementById('audio');
+
+        const rightChannel = manifest.structures[0];
+        const leftChannel = manifest.structures[1];
+
+        const getLabelText = (item) => item.label.en[0];
+
+        const $rightNav = document.querySelector(`[name="${getLabelText(rightChannel)}"]`);
+        const $leftNav = document.querySelector(`[name="${getLabelText(leftChannel)}"]`);
+
+        const getRangeId = (item) => item.id.match(/\d+$/);
+
+        const getStartTime = (item) => {
+          const id = item.items[0].id;
+          const range = id.substr(id.indexOf('#') + 3);
+          return parseInt(range.split(',')[0]);
+        };
+
+        const createNavButtons = (channelItems, $container) => {
+          channelItems.forEach((item) => {
+            const $button = document.createElement('button');
+            $button.classList.add('iiif-stereo__button');
+            $button.id = getRangeId(item);
+
+            const buttonText = document.createTextNode(getLabelText(item))
+            $button.appendChild(buttonText);
+
+            $button.onclick = () => {
+              $audio.currentTime = getStartTime(item);
+              $audio.play();
+            };
+
+            $container.appendChild($button);
+          });
+        };
+
+        createNavButtons(rightChannel.items, $rightNav);
+        createNavButtons(leftChannel.items, $leftNav);
+      });
+    </script>
   </body>
 </html>
